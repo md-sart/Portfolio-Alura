@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /*vh sigifica 100% fo viewport height, viewport é declarado no head do html*/
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.titulo-destaque{
+    color:#22d4fd;
+}
