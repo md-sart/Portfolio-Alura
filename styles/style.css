@@ -13,7 +13,7 @@ body {
 }
 
 .cabecalho{
-    padding: 5% 0% 0% 15%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
@@ -30,7 +30,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Krona One', 'sans-serif';
+    font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
@@ -93,9 +93,9 @@ body {
 }
 
 .rodape {
-    padding: 24px;
     color: #000000;
     background-color: #22d4fd;
+    padding: 24px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
