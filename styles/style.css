@@ -4,7 +4,7 @@
     --cor-principal: #000000;
     --cor-secundaria: #F5CCA0;
     --cor-terciaria: #E48F45;
-    --cor-hover: #994D1C;
+    --cor-hover: #994e1c30;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -37,6 +37,10 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    font-size: 30px; 
 }
 
 .apresentacao {
@@ -102,13 +106,21 @@ body {
     background-color: var(--cor-hover);
 }
 
+.apresentacao__imagem{
+    width: 350px;
+    height: 450px;
+    top: 235px;
+    left: 1080px;
+    border-radius: 16px;
+    margin-left: 60px
+}
+
 .icone {
     width: 32px;
     height: 32px;
 }
 
 .rodape {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
