@@ -133,7 +133,6 @@ body {
     font-size: 25px;
 }
 
-/* Responsividade */
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 2% 5%;
@@ -155,7 +154,7 @@ body {
 
     .apresentacao__imagem {
         margin: 20px 0;
-        margin-left: 0; /* Centraliza a imagem no modo coluna */
+        margin-left: 0; 
     }
 }
 
